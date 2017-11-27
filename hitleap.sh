@@ -4,5 +4,9 @@ cd cloud9-vnc
 sleep 5
 
 cd ~
+cd /tmp
+sudo rm -R ./.*
+
+cd ~
 cd workspace/Downloads/app
 ./HitLeap-Viewer
